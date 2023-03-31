@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Proyecto # 1 UML
 
 Proyecto Empleados para la Empresa Logistic, usando mysql cómo base de Datos y PHP 8, Bootstrap 5 para el diseño de la Página Web.
@@ -18,3 +19,7 @@ https://github.com/rortizs/MiWebApp.git
 This project is used by the following companies:
 
 - Ingeniero Richard Ortiz | UMG Guastatoya
+=======
+# Sistema_Control_Emp_AS_UMG
+Sistema control de empleados
+>>>>>>> 125199760ad5f44013a571e596cfc321c615fc5a
