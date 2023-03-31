@@ -1,0 +1,37 @@
+@startuml usecase
+
+left to right direction
+actor RRHH
+rectangle "Administrar empleados" {
+  RRHH --> (Agregar empleado)
+  RRHH --> (Editar empleado)
+  RRHH --> (Eliminar empleado)
+}
+
+actor Sistemas
+rectangle "Administrar usuarios" {
+  Sistemas --> (Agregar usuario)
+  Sistemas --> (Editar usuario)
+  Sistemas --> (Eliminar usuario)
+}
+
+actor Gerente
+rectangle "Administrar empleados" {
+  Gerente --> (Ver empleado)
+}
+
+rectangle "Administrar puestos" {
+  Gerente --> (Ver puestos)
+}
+
+rectangle "Administrar usuarios" {
+  Gerente --> (Ver usuarios)
+}
+
+rectangle "Administrar puestos" {
+  RRHH --> (Agregar puesto)
+  RRHH --> (Editar puesto)
+  RRHH --> (Eliminar puesto)
+}
+
+@enduml
